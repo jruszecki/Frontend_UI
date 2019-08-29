@@ -28,6 +28,7 @@ public class Steps {
 		driver.findElement(By.xpath("//*[@id=\"top\"]/div[6]/div/div/div[2]/div[3]/button")).click();	//	throw new PendingException();
 	}
 	
+	
 
 	@When("^user copies news article text and searches for that text with google$")
 	public void user_copies_first_news_article_text() throws Throwable {
